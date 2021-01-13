@@ -1,0 +1,47 @@
+  <html>
+
+  <head>
+    <title>Caramel</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <h1>Welcome to Our Python Training</h1>
+    <h2>Web Site Main Ingredients:</h2>
+  <button  id ='click' type="button">Click Me!</button>
+
+
+    <p>Pages (HTML)</p>
+    <p>Style Sheets (CSS)</p>
+    <p>Computer Code (JavaScript)</p>
+    <p>Live Data (Files and Databases)adbkabsidbadbksbadbsabh</p>
+  <script>
+
+$("#click").click(function() {
+    $.ajax({
+              url: 'click/',
+              type: "POST",
+              // data: {'region':region},
+              // body: payload,
+              // headers: { "X-CSRFToken": csrftoken },
+              // credentials: 'include',
+
+              success: function(data) {
+                  console.log(data)
+                  alert(data)
+
+  //            swal({
+  //   title: "Good job!",
+  //   text: "Loaded Countries!",
+  //   icon: "success",
+  // });
+                      }
+    });
+  });
+
+  </script>
+  </body>
+  </html>
+
+

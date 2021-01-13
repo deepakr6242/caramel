@@ -1,0 +1,124 @@
+#first_jumbotron{
+       color: #212529;
+       text-align: relative;
+       background-color: black;
+       height: relative;
+       width: 100hva;
+       height: 500px;
+       background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+       
+    }
+
+#vmap{
+  float:right;
+  width: 100%;
+  margin-left:45px; 
+  height: 300px;
+
+ 
+}
+#second_jumbotron{
+       color: white;
+       text-align: relative;
+       background-color: black;
+       height: relative;
+       width: 100%;
+       overflow-x: auto;
+       background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+       /*margin-left: 64px;*/
+       /*td,th{border:1px dotted grey;padding:4px;}
+        th{font-weight:bold}*/
+     
+  }
+
+ 
+
+  table,td,th {
+  text-align: center;
+  vertical-align: central;
+  padding: 10px;
+  font-family:  "calibri";
+  border: 2px solid white;
+   /*border-collapse: collapse;*/
+   border-bottom: 2px solid #ddd;
+}
+
+table {
+
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: :50px;
+  font-family: "Arial";
+  background-color: #0389CD;
+}
+tr:hover {
+  background-color:beige;
+}
+tr:nth-child(odd) {
+  background-color: #0389CE;
+}
+th{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+#newcountries,#newcity {
+   /* Green */
+  
+/*  width: 100px;
+  color: white;
+  text-align: center;
+  text-decoration: all;
+  
+  font-size: 10px;
+  width: 100px;*/
+
+
+
+    text-align: center;
+    color: white;
+    text-decoration: all;
+    width:100px ;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: inline-block;
+    position:relative;
+}
+#edit_version{
+  text-align: center;
+  color: white;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:relative;
+}
+
+@media screen and (max-width: 300px) {    .button-text {
+        display: none;
+    }
+
+
+
+}
+
+#container {
+  height: 1000px;
+  min-width: 500px;
+  max-width: 200hva;
+  margin: 0 auto;
+}
+
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+}
+ 
